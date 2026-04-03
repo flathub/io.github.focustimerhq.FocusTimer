@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.focustimerhq.FocusTimer",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "49",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "command": "focus-timer",
   "finish-args": [
@@ -22,16 +22,8 @@
     "/include",
     "/lib/girepository-1.0",
     "/lib/pkgconfig",
-    "/man",
-    "/share/aclocal",
-    "/share/doc",
     "/share/gir-1.0",
-    "/share/gtk-doc",
-    "/share/pkgconfig",
-    "/share/man",
-    "/share/vala",
-    "*.la",
-    "*.a"
+    "/share/vala"
   ],
   "modules": [
     {
@@ -74,8 +66,7 @@
       "config-opts": [
         "-Dprofile=default",
         "-Dautomation=disabled",
-        "--buildtype",
-        "release"
+        "-Dbuildtype=release"
       ],
       "sources": [
         {
