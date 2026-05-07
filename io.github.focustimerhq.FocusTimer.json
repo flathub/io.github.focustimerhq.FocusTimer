@@ -13,10 +13,10 @@
     "--system-talk-name=org.freedesktop.login1",
     "--system-talk-name=org.freedesktop.timedate1",
     "--talk-name=org.freedesktop.Notifications",
-    "--talk-name=org.freedesktop.ScreenSaver",
     "--talk-name=org.gnome.Mutter.IdleMonitor",
     "--talk-name=org.gnome.ScreenSaver",
-    "--talk-name=org.gnome.Shell"
+    "--talk-name=org.gnome.Shell",
+    "--talk-name=org.kde.StatusNotifierWatcher"
   ],
   "cleanup": [
     "/include",
@@ -72,8 +72,8 @@
         {
           "type": "git",
           "url": "https://github.com/focustimerhq/FocusTimer.git",
-          "tag": "1.1.0",
-          "commit": "f0b364ff0580088482bac477d7fd76f641aff479"
+          "tag": "1.1.1",
+          "commit": "a5c60e8a395ef940b55aadd8cd025b6f3af2d85c"
         }
       ]
     }
