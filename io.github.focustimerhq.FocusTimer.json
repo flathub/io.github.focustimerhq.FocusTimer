@@ -16,7 +16,8 @@
     "--talk-name=org.gnome.Mutter.IdleMonitor",
     "--talk-name=org.gnome.ScreenSaver",
     "--talk-name=org.gnome.Shell",
-    "--talk-name=org.kde.StatusNotifierWatcher"
+    "--talk-name=org.kde.StatusNotifierWatcher",
+    "--talk-name=org.xfce.ScreenSaver"
   ],
   "cleanup": [
     "/include",
@@ -72,8 +73,8 @@
         {
           "type": "git",
           "url": "https://github.com/focustimerhq/FocusTimer.git",
-          "tag": "1.1.1",
-          "commit": "a5c60e8a395ef940b55aadd8cd025b6f3af2d85c"
+          "tag": "1.1.2",
+          "commit": "921e587806a47fb0d6bb071ffe4e885df5aed96a"
         }
       ]
     }
