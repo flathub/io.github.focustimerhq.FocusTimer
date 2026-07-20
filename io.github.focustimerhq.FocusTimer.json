@@ -73,8 +73,8 @@
         {
           "type": "git",
           "url": "https://github.com/focustimerhq/FocusTimer.git",
-          "tag": "1.1.2",
-          "commit": "921e587806a47fb0d6bb071ffe4e885df5aed96a"
+          "tag": "1.1.3",
+          "commit": "4af281fb6faba0ae826a142ec8587787a307e439"
         }
       ]
     }
