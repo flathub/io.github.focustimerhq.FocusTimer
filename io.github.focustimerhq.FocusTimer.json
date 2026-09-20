@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.focustimerhq.FocusTimer",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "50",
+  "runtime-version": "51",
   "sdk": "org.gnome.Sdk",
   "command": "focus-timer",
   "finish-args": [
@@ -67,15 +67,14 @@
       "builddir": true,
       "config-opts": [
         "-Dprofile=default",
-        "-Dautomation=disabled",
         "-Dbuildtype=release"
       ],
       "sources": [
         {
           "type": "git",
           "url": "https://github.com/focustimerhq/FocusTimer.git",
-          "tag": "1.1.4",
-          "commit": "6e146981a51ca1cef1a4b26ae564cb47c41752c8"
+          "tag": "1.1.5",
+          "commit": "430791ad43822d68a19e9a9683dcf7f152e2a798"
         }
       ]
     }
