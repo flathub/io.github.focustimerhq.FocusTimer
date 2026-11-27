@@ -62,6 +62,27 @@
       ]
     },
     {
+      "name": "gtk4-layer-shell",
+      "buildsystem": "meson",
+      "builddir": true,
+      "config-opts": [
+        "-Dexamples=false",
+        "-Ddocs=false",
+        "-Dtests=false",
+        "-Dsmoke-tests=false",
+        "-Dintrospection=true",
+        "-Dvapi=true"
+      ],
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://github.com/wmww/gtk4-layer-shell.git",
+          "tag": "v1.3.0",
+          "commit": "1c963c51514581c41b9bdae08cdf69171265cdda"
+        }
+      ]
+    },
+    {
       "name": "focus-timer",
       "buildsystem": "meson",
       "builddir": true,
@@ -73,8 +94,8 @@
         {
           "type": "git",
           "url": "https://github.com/focustimerhq/FocusTimer.git",
-          "tag": "1.1.5",
-          "commit": "430791ad43822d68a19e9a9683dcf7f152e2a798"
+          "tag": "1.1.6",
+          "commit": "22173b725df37b63a7e67080270c41444bec83ff"
         }
       ]
     }
